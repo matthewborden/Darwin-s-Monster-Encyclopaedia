@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3769EB1E9EFBC400416DC1 /* MonsterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3769EA1E9EFBC400416DC1 /* MonsterTableViewController.swift */; };
+		CE3769EF1E9EFEE500416DC1 /* MonsterTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3769EE1E9EFEE500416DC1 /* MonsterTableCell.swift */; };
+		CE39503E1E9F398B005633ED /* ViewMonsterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39503D1E9F398B005633ED /* ViewMonsterController.swift */; };
 		CE5716221E9223BF00868D20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5716211E9223BF00868D20 /* AppDelegate.swift */; };
 		CE5716241E9223BF00868D20 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5716231E9223BF00868D20 /* RootViewController.swift */; };
 		CE5716261E9223BF00868D20 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5716251E9223BF00868D20 /* DataViewController.swift */; };
@@ -16,6 +19,7 @@
 		CE5716301E9223BF00868D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE57162E1E9223BF00868D20 /* LaunchScreen.storyboard */; };
 		CE57163B1E9223BF00868D20 /* Darwin_s_Monster_EncyclopaediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57163A1E9223BF00868D20 /* Darwin_s_Monster_EncyclopaediaTests.swift */; };
 		CE5716461E9223BF00868D20 /* Darwin_s_Monster_EncyclopaediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5716451E9223BF00868D20 /* Darwin_s_Monster_EncyclopaediaUITests.swift */; };
+		CE5716541E92278600868D20 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5716531E92278600868D20 /* Monster.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE3769EA1E9EFBC400416DC1 /* MonsterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterTableViewController.swift; sourceTree = "<group>"; };
+		CE3769EE1E9EFEE500416DC1 /* MonsterTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterTableCell.swift; sourceTree = "<group>"; };
+		CE39503D1E9F398B005633ED /* ViewMonsterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMonsterController.swift; sourceTree = "<group>"; };
 		CE57161E1E9223BF00868D20 /* Darwin’s Monster Encyclopaedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Darwin’s Monster Encyclopaedia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5716211E9223BF00868D20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5716231E9223BF00868D20 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +58,7 @@
 		CE5716411E9223BF00868D20 /* Darwin’s Monster EncyclopaediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Darwin’s Monster EncyclopaediaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5716451E9223BF00868D20 /* Darwin_s_Monster_EncyclopaediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Darwin_s_Monster_EncyclopaediaUITests.swift; sourceTree = "<group>"; };
 		CE5716471E9223BF00868D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5716531E92278600868D20 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +111,16 @@
 			children = (
 				CE5716211E9223BF00868D20 /* AppDelegate.swift */,
 				CE5716231E9223BF00868D20 /* RootViewController.swift */,
+				CE5716531E92278600868D20 /* Monster.swift */,
 				CE5716251E9223BF00868D20 /* DataViewController.swift */,
+				CE39503D1E9F398B005633ED /* ViewMonsterController.swift */,
 				CE5716271E9223BF00868D20 /* ModelController.swift */,
 				CE5716291E9223BF00868D20 /* Main.storyboard */,
 				CE57162C1E9223BF00868D20 /* Assets.xcassets */,
 				CE57162E1E9223BF00868D20 /* LaunchScreen.storyboard */,
 				CE5716311E9223BF00868D20 /* Info.plist */,
+				CE3769EA1E9EFBC400416DC1 /* MonsterTableViewController.swift */,
+				CE3769EE1E9EFEE500416DC1 /* MonsterTableCell.swift */,
 			);
 			path = "Darwin’s Monster Encyclopaedia";
 			sourceTree = "<group>";
@@ -265,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5716541E92278600868D20 /* Monster.swift in Sources */,
+				CE3769EF1E9EFEE500416DC1 /* MonsterTableCell.swift in Sources */,
 				CE5716241E9223BF00868D20 /* RootViewController.swift in Sources */,
+				CE3769EB1E9EFBC400416DC1 /* MonsterTableViewController.swift in Sources */,
 				CE5716281E9223BF00868D20 /* ModelController.swift in Sources */,
+				CE39503E1E9F398B005633ED /* ViewMonsterController.swift in Sources */,
 				CE5716261E9223BF00868D20 /* DataViewController.swift in Sources */,
 				CE5716221E9223BF00868D20 /* AppDelegate.swift in Sources */,
 			);
@@ -513,6 +529,7 @@
 				CE57164C1E9223BF00868D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE57164D1E9223BF00868D20 /* Build configuration list for PBXNativeTarget "Darwin’s Monster EncyclopaediaTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +538,7 @@
 				CE57164F1E9223BF00868D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE5716501E9223BF00868D20 /* Build configuration list for PBXNativeTarget "Darwin’s Monster EncyclopaediaUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +547,7 @@
 				CE5716521E9223BF00868D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
